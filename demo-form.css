@@ -1,0 +1,225 @@
+.box {
+  width: 480px;
+  height: 583px;
+}
+
+.box .group {
+  position: fixed;
+  width: 486px;
+  height: 583px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.box .overlap {
+  position: relative;
+  width: 480px;
+  height: 583px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.box .overlap-group {
+  position: absolute;
+  width: 480px;
+  height: 80px;
+  top: 0;
+  left: 0;
+  background-color: #5a3fc3;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.box .icon-stroke-cross {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 10px;
+  left: 450px;
+  cursor: pointer;
+}
+
+.box .text-wrapper {
+  position: absolute;
+  width: 284px;
+  top: 15px;
+  left: 35px;
+  font-family: "DM Sans-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 30px;
+}
+
+.box .div {
+  position: absolute;
+  width: 284px;
+  top: 45px;
+  left: 35px;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  line-height: 22px;
+}
+
+.box .overlap-group-wrapper,
+.box .overlap-wrapper,
+.box .div-wrapper,
+.box .group-2,
+.box .group-3 {
+  position: absolute;
+  width: 415px;
+  height: 48px;
+  left: 33px;
+}
+
+.box .overlap-group-wrapper {
+  top: 111px;
+}
+
+.box .overlap-wrapper {
+  top: 172px;
+}
+
+.box .div-wrapper {
+  top: 233px;
+}
+
+.box .group-2 {
+  top: 294px;
+}
+
+.box .group-3 {
+  top: 368px;
+}
+
+.box .overlap-group-2 {
+  position: relative;
+  width: 90%;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #d2d5da;
+  display: flex;
+  align-items: center;
+  padding: 0 19px;
+}
+
+.box .text-wrapper-2,
+.box .text-wrapper-3,
+.box .text-wrapper-4 {
+  font-family: "DM Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #002863;
+  font-size: 16px;
+  letter-spacing: -0.16px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.box .text-wrapper-2 {
+  width: 100%;
+}
+
+.box .text-wrapper-3 {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.box .text-wrapper-4 {
+  width: calc(100% - 60px);
+}
+
+.box select,
+.box input[type="text"],
+.box input[type="email"],
+.box input[type="tel"] {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-size: 16px;
+  color: #002863;
+  background-color: transparent;
+}
+
+.box .overlap-3 {
+  width: 100%;
+  height: 54px;
+  background-color: #ff3e4d;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.box .text-wrapper-5 {
+  font-family: "DM Sans-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.16px;
+  line-height: 26px;
+  white-space: nowrap;
+}
+
+.box .uptodd-s-terms {
+  position: absolute;
+  width: 380px;
+  top: 440px;
+  left: 33px;
+  font-family: "DM Sans-Regular", Helvetica;
+  font-weight: 400;
+  color: #002863;
+  font-size: 14px;
+  letter-spacing: -0.14px;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.box .span {
+  color: #002863;
+  letter-spacing: -0.02px;
+
+}
+
+.box .nowrap {
+  white-space: nowrap;
+}
+
+.box .text-wrapper-6 {
+  color: #ff3e4d;
+  letter-spacing: -0.02px;
+}
+
+.box .group-4 {
+  position: absolute;
+  width: 198px;
+  height: 43px;
+  top: 514px;
+  left: 141px;
+}
+
+.box .image {
+  position: absolute;
+  width: 96px;
+  height: 37px;
+  top: 6px;
+  left: 0;
+}
+
+.box .image-2 {
+  position: absolute;
+  width: 85px;
+  height: 36px;
+  top: 0;
+  left: 113px;
+}
