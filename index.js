@@ -25,13 +25,15 @@ connectDB().then(() => {
 });
 
   
-// Define a schema and model for form data
 const formSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  email: { type: String, required: true },
-  phone: { type: String, required: true },
+  email: { type: String, required: true, unique: true }, // Ensure email is unique
+  phone: { type: String, required: true, unique: true }, // Ensure phone is unique
   babyStage: { type: String, required: true },
 });
+
+// Apply the unique validator plugin to formSchema
+formSchema.plugin(require('mongoose-unique-validator'));
 
 const Form = mongoose.model('Form', formSchema);
 
